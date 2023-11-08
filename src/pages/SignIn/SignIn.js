@@ -70,7 +70,7 @@ function SignIn() {
             resetpwd();
             navigate("/");
         } catch (error) {
-            console.error(error);
+            console.log(error);
             setError(error);
         }
 
