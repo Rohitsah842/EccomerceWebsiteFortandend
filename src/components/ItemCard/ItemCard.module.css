@@ -1,0 +1,60 @@
+.card {
+    margin: 5px;
+    box-shadow: 1px 1px 1px 0.5px gray;
+    height: max-content;
+    max-width: 250px !important;
+
+    @media screen and (max-width:432px) {
+        max-width: 50vw !important;
+    }
+
+    @media screen and (max-width:768px) and (min-width:432px) {
+        max-width: 33vw !important;
+    }
+}
+
+
+.item-title {
+    font-size: 1rem;
+
+}
+
+.button {
+    padding: 10px !important;
+}
+
+.button img {
+    width: auto !important;
+}
+
+.icon {
+    display: flex;
+    float: right;
+    font-size: 1.8rem;
+}
+
+.addCartBtn {
+    display: flex;
+    float: left;
+}
+
+.outOfStackBtn {
+    display: flex;
+    float: left;
+    background-color: rgb(218, 33, 33) !important;
+    color: white !important;
+}
+
+.discountClass {
+    display: flex;
+    float: right;
+    padding: 7px;
+    background-color: #225718 !important;
+    color: white !important;
+    border-radius: inherit 4 !important;
+    font-size: 1rem;
+}
+
+.sold-out {
+    text-decoration: line-through;
+}

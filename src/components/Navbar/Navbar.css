@@ -1,0 +1,54 @@
+.cart {
+    font-size: 3rem;
+}
+
+.cart-value {
+    position: absolute;
+    margin-bottom: 50px;
+    font-size: larger;
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+}
+
+.profile-icon {
+    font-size: 4rem;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-link {
+    display: none;
+}
+
+
+.profile-active {
+    width: 25%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 83px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -2px 4px 4px -2px black;
+    background-color: white;
+    z-index: 100;
+}
+
+.profile-active a {
+    margin: 8px;
+    justify-content: center;
+    color: rgb(70, 69, 69);
+}
+
+.profile-active h3 {
+    color: rgb(38, 214, 226);
+}
+
+/* .profile-icon :hover {
+    .profile-link {
+        display: block;
+    }
+} */

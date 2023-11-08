@@ -1,0 +1,70 @@
+.container-fluid {
+    display: flex;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(247, 244, 244);
+    padding: 15px;
+}
+
+.filter-category {
+    flex: 1;
+    box-shadow: 1px 0px 5px 0px rgb(68, 67, 67);
+    padding: 5px;
+}
+
+.flex-wrap {
+    height: 70%;
+    width: 100%;
+}
+
+.product-contant {
+    flex: 5;
+    box-shadow: 1px 0px 5px 0px rgb(68, 67, 67);
+    margin: 0 10px;
+    overflow-y: auto;
+    padding: 0 10px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: blue;
+}
+
+.filter-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid gray;
+}
+
+.form-check {
+    font-size: 1.4rem;
+}
+
+.form-check-input {
+    border: 1px solid gray;
+}
+
+.back-link {
+    width: 100%;
+    font-size: 2rem;
+    padding-left: 10px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.react-multi-carousel-item {
+    width: 300px !important;
+}

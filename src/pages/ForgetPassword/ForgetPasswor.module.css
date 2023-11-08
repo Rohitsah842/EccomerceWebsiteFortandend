@@ -1,0 +1,17 @@
+.forget_Password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.box {
+    background-color: white;
+    box-shadow: -1px 1px 8px 4px #392235;
+    height: max-content;
+    padding: 2rem;
+    width: 450px;
+    z-index: 300;
+}

@@ -1,0 +1,50 @@
+.sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 115vh;
+}
+
+.crossIcon {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    color: rgb(46, 44, 44);
+    cursor: pointer;
+}
+
+.box {
+    background-color: white;
+    box-shadow: -1px 1px 8px 4px #392235;
+    height: max-content;
+    padding: 2rem;
+    width: 450px;
+    z-index: 300;
+}
+
+@media screen and (max-width: 920px) {
+    .box {
+        width: 80%;
+    }
+}
+
+.form-password {
+    display: flex;
+    width: 100%;
+}
+
+.spanBtn {
+    margin-top: 18px;
+    margin-left: -50px;
+}
+
+.forgetPwdLink {
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    margin: 18px 0;
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,54 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(186, 184, 187), rgb(243, 244, 245));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(208, 207, 209), rgb(246, 247, 248))
+}
+
+.text-dark {
+    margin: initial;
+    border-radius: 50% !important;
+    height: 60px !important;
+    background-color: white !important;
+    width: 60px !important;
+    color: black !important;
+}
+
+.text-dark svg {
+    font-size: 2rem;
+}
+
+.item-count {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishList-button {
+    margin: 2px;
+    height: 60px !important;
+    background-color: rgb(50, 236, 59) !important;
+    width: 60px !important;
+    color: white;
+    font-size: 2rem !important;
+}
+
+.delete-button {
+    margin: 2px;
+    height: 60px !important;
+    background-color: rgb(241, 11, 11) !important;
+    width: 60px !important;
+    color: white;
+    font-size: 2rem !important;
+}
